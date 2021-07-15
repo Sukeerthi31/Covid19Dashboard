@@ -1,0 +1,1419 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "INDIA COVID-19 DASHBOARD",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": null, \"remote_id\": 12}",
+                "position_json": "{\"CHART-1MOGSSWNRJ\":{\"children\":[],\"id\":\"CHART-1MOGSSWNRJ\",\"meta\":{\"chartId\":248,\"height\":33,\"sliceName\":\"INCIDENT RATE CALENDAR\",\"uuid\":\"d262acda-14aa-4950-bb6f-524ed28947e2\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Vr_iluvw3h\"],\"type\":\"CHART\"},\"CHART-1rjbiWm10m\":{\"children\":[],\"id\":\"CHART-1rjbiWm10m\",\"meta\":{\"chartId\":145,\"height\":31,\"sliceName\":\"Active Cases\",\"uuid\":\"e4d2a8dd-b50d-43cd-8c55-a64d209049bc\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-KM2_y-bDl\"],\"type\":\"CHART\"},\"CHART-2h40vp4CqC\":{\"children\":[],\"id\":\"CHART-2h40vp4CqC\",\"meta\":{\"chartId\":153,\"height\":35,\"sliceName\":\"State with Highest Confirmed Cases per Population\",\"uuid\":\"74a5d7b9-9d39-4f16-989d-87aad22aedf1\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-x_WMpMJ1gm\"],\"type\":\"CHART\"},\"CHART-5_tHSmbY5A\":{\"children\":[],\"id\":\"CHART-5_tHSmbY5A\",\"meta\":{\"chartId\":154,\"height\":53,\"sliceName\":\"TIME SERIES CHART FOR ACTIVE RECOVERED CONFIRMED DEATHS\",\"uuid\":\"b5dacec5-ad7b-44bd-87c1-6ea4029a9d31\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-eV3kZS8hLdR\"],\"type\":\"CHART\"},\"CHART-6cWYeCzi6I\":{\"children\":[],\"id\":\"CHART-6cWYeCzi6I\",\"meta\":{\"chartId\":216,\"height\":49,\"sliceName\":\"Daily Registered Cases Trend\",\"uuid\":\"9b015616-5145-4eff-96bf-71ce65933e61\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-NMHVIvkK2\"],\"type\":\"CHART\"},\"CHART-8UJKAVdlYn\":{\"children\":[],\"id\":\"CHART-8UJKAVdlYn\",\"meta\":{\"chartId\":210,\"height\":54,\"sliceName\":\"TIME-SERIES TREND OF TEST POSITIVITY RATE\",\"uuid\":\"0ef52179-7928-4a92-8308-d40013502fc8\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-eV3kZS8hLdR\"],\"type\":\"CHART\"},\"CHART-8biVW2KTik\":{\"children\":[],\"id\":\"CHART-8biVW2KTik\",\"meta\":{\"chartId\":149,\"height\":50,\"sliceName\":\"State-Wise Death Rate\",\"uuid\":\"4d19124e-3fd7-4a1d-b5f4-29732fc62072\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-DMpbPh9A7y\"],\"type\":\"CHART\"},\"CHART-8d_K1CARnL\":{\"children\":[],\"id\":\"CHART-8d_K1CARnL\",\"meta\":{\"chartId\":244,\"height\":62,\"sliceName\":\"TOP 10 ACTIVE CASES STATES\",\"uuid\":\"fdfaf732-197f-45da-baf3-a5f216ebe505\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-RcOK3sN8RC\"],\"type\":\"CHART\"},\"CHART-BL6Izl7bgX\":{\"children\":[],\"id\":\"CHART-BL6Izl7bgX\",\"meta\":{\"chartId\":146,\"height\":31,\"sliceName\":\"Confirmed Cases\",\"uuid\":\"c58e45da-2244-46a7-aa8f-7179190931c6\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-KM2_y-bDl\"],\"type\":\"CHART\"},\"CHART-Eil-jpmume\":{\"children\":[],\"id\":\"CHART-Eil-jpmume\",\"meta\":{\"chartId\":245,\"height\":50,\"sliceName\":\"TOP 20 UNSAFE STATES\",\"uuid\":\"cbfef26f-56d2-4f3d-8b6a-fdbfc403630a\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-8h285V9JXe\"],\"type\":\"CHART\"},\"CHART-IHXk_TI9Oq\":{\"children\":[],\"id\":\"CHART-IHXk_TI9Oq\",\"meta\":{\"chartId\":208,\"height\":40,\"sliceName\":\"Maximum Deaths on a Single Day\",\"uuid\":\"6a925a14-0438-494d-8610-1bbbf4079aaa\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-kfQM39cWRJ\"],\"type\":\"CHART\"},\"CHART-KPP2-flMIV\":{\"children\":[],\"id\":\"CHART-KPP2-flMIV\",\"meta\":{\"chartId\":247,\"height\":51,\"sliceName\":\"DEATHS/CONFIRM RATIO TABLE\",\"uuid\":\"f3c790bd-427d-409f-ab2e-1cd9451964d7\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-DMpbPh9A7y\"],\"type\":\"CHART\"},\"CHART-O3dwiNc63t\":{\"children\":[],\"id\":\"CHART-O3dwiNc63t\",\"meta\":{\"chartId\":212,\"height\":51,\"sliceName\":\"Weekly New Cases Trend\",\"uuid\":\"12178e0c-e7b4-4545-8be0-1c1fb2532f81\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-DjxSzEAG7\"],\"type\":\"CHART\"},\"CHART-P5vAxtFLUw\":{\"children\":[],\"id\":\"CHART-P5vAxtFLUw\",\"meta\":{\"chartId\":243,\"height\":48,\"sliceName\":\"CONFIRMED VS TIME\",\"uuid\":\"2fc14114-e8a0-47ca-9e5e-b1677f4e11f7\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-YEv3YJ3G8C\"],\"type\":\"CHART\"},\"CHART-SYqamvpBcp\":{\"children\":[],\"id\":\"CHART-SYqamvpBcp\",\"meta\":{\"chartId\":144,\"height\":50,\"sliceName\":\"Pie Chart of Active Cases\",\"uuid\":\"4f502eee-ef9f-49d0-b866-ff2118bd593b\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-8h285V9JXe\"],\"type\":\"CHART\"},\"CHART-Y9GzGJGLWO\":{\"children\":[],\"id\":\"CHART-Y9GzGJGLWO\",\"meta\":{\"chartId\":215,\"height\":62,\"sliceName\":\"State-Wise Active Cases Word Map\",\"uuid\":\"63eeef4b-0a61-412c-bf79-154a3acd0320\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-RcOK3sN8RC\"],\"type\":\"CHART\"},\"CHART-Y_6D8J2Y1-\":{\"children\":[],\"id\":\"CHART-Y_6D8J2Y1-\",\"meta\":{\"chartId\":246,\"height\":50,\"sliceName\":\"TOP 20 SAFE STATES\",\"uuid\":\"ace1d6d8-d91a-4958-b64f-9e3c737221c4\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-8h285V9JXe\"],\"type\":\"CHART\"},\"CHART-Yu18lU9TaG\":{\"children\":[],\"id\":\"CHART-Yu18lU9TaG\",\"meta\":{\"chartId\":242,\"height\":48,\"sliceName\":\"DEATHS VS TIME\",\"uuid\":\"c757c549-4d00-402a-be5f-ef2784315d8a\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-YEv3YJ3G8C\"],\"type\":\"CHART\"},\"CHART-Z8SJ0_Vlo_\":{\"children\":[],\"id\":\"CHART-Z8SJ0_Vlo_\",\"meta\":{\"chartId\":147,\"height\":31,\"sliceName\":\"Recovered Cases\",\"uuid\":\"b8d20a50-56d3-4a6c-9365-5184d8e4bbb8\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-KM2_y-bDl\"],\"type\":\"CHART\"},\"CHART-aQxkSyHZp2\":{\"children\":[],\"id\":\"CHART-aQxkSyHZp2\",\"meta\":{\"chartId\":150,\"height\":35,\"sliceName\":\"State with the Highest Death Rate\",\"uuid\":\"4c185c52-12d9-4148-9212-94eb55841bd8\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-x_WMpMJ1gm\"],\"type\":\"CHART\"},\"CHART-d8PmNU1Q-2\":{\"children\":[],\"id\":\"CHART-d8PmNU1Q-2\",\"meta\":{\"chartId\":152,\"height\":35,\"sliceName\":\"State with Maximum Confirmed Cases\",\"uuid\":\"2fd1d28d-db0e-4b90-95b4-e31c93a48623\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-x_WMpMJ1gm\"],\"type\":\"CHART\"},\"CHART-eRC_L7aK1w\":{\"children\":[],\"id\":\"CHART-eRC_L7aK1w\",\"meta\":{\"chartId\":250,\"height\":66,\"sliceName\":\"Daily-wise Tests Done\",\"uuid\":\"59bf7b98-69d1-4b2c-9f67-5ef74fff6b9d\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-jyNFSYb6R\"],\"type\":\"CHART\"},\"CHART-glyymcixFNO\":{\"children\":[],\"id\":\"CHART-glyymcixFNO\",\"meta\":{\"chartId\":155,\"height\":51,\"sliceName\":\"TABULAR DETAILS OF CASE FATALITY RATIO AND INCIDENT RATE\",\"uuid\":\"427844fa-fbcf-4500-8c7a-89aa79628b22\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-pLdUN8EqAs\"],\"type\":\"CHART\"},\"CHART-hGeYqggU5G\":{\"children\":[],\"id\":\"CHART-hGeYqggU5G\",\"meta\":{\"chartId\":209,\"height\":40,\"sliceName\":\"Maximum Cases Registered on a Single Day\",\"uuid\":\"ca63e4cf-9a7f-4d00-881c-1c6428af8787\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-kfQM39cWRJ\"],\"type\":\"CHART\"},\"CHART-k_ALhC5kPS\":{\"children\":[],\"id\":\"CHART-k_ALhC5kPS\",\"meta\":{\"chartId\":148,\"height\":31,\"sliceName\":\"Deaths\",\"uuid\":\"cc2071e7-1a94-4200-ac5b-ba0561d99101\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-KM2_y-bDl\"],\"type\":\"CHART\"},\"CHART-lmGJiOPxgP\":{\"children\":[],\"id\":\"CHART-lmGJiOPxgP\",\"meta\":{\"chartId\":249,\"height\":50,\"sliceName\":\"INCIDENT RATE GRAPH\",\"uuid\":\"4cbe1937-96a1-4885-8416-a782757bc4f0\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-pLdUN8EqAs\"],\"type\":\"CHART\"},\"CHART-owyWco_6pP\":{\"children\":[],\"id\":\"CHART-owyWco_6pP\",\"meta\":{\"chartId\":207,\"height\":40,\"sliceName\":\"Maximum Tests Conducted on a Single Day\",\"uuid\":\"330c09f7-d516-4426-8d30-98dcba0c2450\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-kfQM39cWRJ\"],\"type\":\"CHART\"},\"CHART-qN6AR0xnL-\":{\"children\":[],\"id\":\"CHART-qN6AR0xnL-\",\"meta\":{\"chartId\":151,\"height\":35,\"sliceName\":\"State with the Maximum Recovery Rate\",\"uuid\":\"fdbaae96-cbeb-43e7-97ef-f919942a941b\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-x_WMpMJ1gm\"],\"type\":\"CHART\"},\"CHART-r5ZivmfwCr\":{\"children\":[],\"id\":\"CHART-r5ZivmfwCr\",\"meta\":{\"chartId\":211,\"height\":51,\"sliceName\":\"Daily Cases and Vaccinations Trend From 2021\",\"uuid\":\"724a985d-9e9e-4ac4-842b-53941baf5441\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-DjxSzEAG7\"],\"type\":\"CHART\"},\"CHART-u38MYVgRKF\":{\"children\":[],\"id\":\"CHART-u38MYVgRKF\",\"meta\":{\"chartId\":217,\"height\":49,\"sliceName\":\"Tests Done Per Each Confirmed Case\",\"uuid\":\"2edf2e9f-8a93-41f3-9933-c28d11f30c8d\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-NMHVIvkK2\"],\"type\":\"CHART\"},\"CHART-uLAY-CKSCd\":{\"children\":[],\"id\":\"CHART-uLAY-CKSCd\",\"meta\":{\"chartId\":143,\"height\":66,\"sliceName\":\"India Map of Confirmed Cases\",\"uuid\":\"f183ff4a-8b95-403c-b7ab-22fa53347618\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-jyNFSYb6R\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"TABS-cDt3AStU94\",\"ROW-KM2_y-bDl\",\"ROW-RcOK3sN8RC\",\"ROW-jyNFSYb6R\",\"ROW-YEv3YJ3G8C\",\"ROW-8h285V9JXe\",\"ROW-x_WMpMJ1gm\",\"ROW-pLdUN8EqAs\",\"ROW-DMpbPh9A7y\",\"ROW-kfQM39cWRJ\",\"ROW-Vr_iluvw3h\",\"ROW-eV3kZS8hLdR\",\"ROW-DjxSzEAG7\",\"ROW-NMHVIvkK2\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"INDIA COVID-19 DASHBOARD\"},\"type\":\"HEADER\"},\"MARKDOWN-7dCcVxBLje\":{\"children\":[],\"id\":\"MARKDOWN-7dCcVxBLje\",\"meta\":{\"code\":\"<iframe src='https://flo.uri.sh/visualisation/6566742/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/6566742/?utm_source=embed&utm_campaign=visualisation/6566742' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>\",\"height\":75,\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-cDt3AStU94\",\"TAB-55TSrP0zvD\",\"ROW-uqEOn8P3VZ\"],\"type\":\"MARKDOWN\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-8h285V9JXe\":{\"children\":[\"CHART-SYqamvpBcp\",\"CHART-Y_6D8J2Y1-\",\"CHART-Eil-jpmume\"],\"id\":\"ROW-8h285V9JXe\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-DMpbPh9A7y\":{\"children\":[\"CHART-8biVW2KTik\",\"CHART-KPP2-flMIV\"],\"id\":\"ROW-DMpbPh9A7y\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-DjxSzEAG7\":{\"children\":[\"CHART-O3dwiNc63t\",\"CHART-r5ZivmfwCr\"],\"id\":\"ROW-DjxSzEAG7\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-KM2_y-bDl\":{\"children\":[\"CHART-BL6Izl7bgX\",\"CHART-1rjbiWm10m\",\"CHART-Z8SJ0_Vlo_\",\"CHART-k_ALhC5kPS\"],\"id\":\"ROW-KM2_y-bDl\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-NMHVIvkK2\":{\"children\":[\"CHART-6cWYeCzi6I\",\"CHART-u38MYVgRKF\"],\"id\":\"ROW-NMHVIvkK2\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-RcOK3sN8RC\":{\"children\":[\"CHART-Y9GzGJGLWO\",\"CHART-8d_K1CARnL\"],\"id\":\"ROW-RcOK3sN8RC\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-Vr_iluvw3h\":{\"children\":[\"CHART-1MOGSSWNRJ\"],\"id\":\"ROW-Vr_iluvw3h\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-YEv3YJ3G8C\":{\"children\":[\"CHART-Yu18lU9TaG\",\"CHART-P5vAxtFLUw\"],\"id\":\"ROW-YEv3YJ3G8C\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-eV3kZS8hLdR\":{\"children\":[\"CHART-5_tHSmbY5A\",\"CHART-8UJKAVdlYn\"],\"id\":\"ROW-eV3kZS8hLdR\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-jyNFSYb6R\":{\"children\":[\"CHART-uLAY-CKSCd\",\"CHART-eRC_L7aK1w\"],\"id\":\"ROW-jyNFSYb6R\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-kfQM39cWRJ\":{\"children\":[\"CHART-owyWco_6pP\",\"CHART-IHXk_TI9Oq\",\"CHART-hGeYqggU5G\"],\"id\":\"ROW-kfQM39cWRJ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-pLdUN8EqAs\":{\"children\":[\"CHART-glyymcixFNO\",\"CHART-lmGJiOPxgP\"],\"id\":\"ROW-pLdUN8EqAs\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-uqEOn8P3VZ\":{\"children\":[\"MARKDOWN-7dCcVxBLje\"],\"id\":\"ROW-uqEOn8P3VZ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-cDt3AStU94\",\"TAB-55TSrP0zvD\"],\"type\":\"ROW\"},\"ROW-x_WMpMJ1gm\":{\"children\":[\"CHART-aQxkSyHZp2\",\"CHART-qN6AR0xnL-\",\"CHART-d8PmNU1Q-2\",\"CHART-2h40vp4CqC\"],\"id\":\"ROW-x_WMpMJ1gm\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"TAB-55TSrP0zvD\":{\"children\":[\"ROW-uqEOn8P3VZ\"],\"id\":\"TAB-55TSrP0zvD\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"INDIA CASES DASHBOARD\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-cDt3AStU94\"],\"type\":\"TAB\"},\"TABS-cDt3AStU94\":{\"children\":[\"TAB-55TSrP0zvD\"],\"id\":\"TABS-cDt3AStU94\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 143,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"29__table\", \"entity\": \"code\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"linear_color_scheme\": \"superset_seq_1\", \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 793, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(confirmed)\", \"optionName\": \"metric_sapslaskvc_2kyzcuvxr3w\", \"sqlExpression\": null}, \"number_format\": \"SMART_NUMBER\", \"select_country\": \"india\", \"time_range\": \"2020-01-01T00:00:00 : 2021-07-13T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"country_map\", \"remote_id\": 143, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "India Map of Confirmed Cases",
+                            "viz_type": "country_map"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 144,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"bnbColors\", \"datasource\": \"29__table\", \"date_format\": \"smart_date\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"innerRadius\": 30, \"label_type\": \"key\", \"labels_outside\": true, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"active\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 792, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(active)\", \"optionName\": \"metric_5jtadtwm7rr_u5bbaqy1ft\", \"sqlExpression\": null}, \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 70, \"row_limit\": 10000, \"show_labels\": true, \"show_labels_threshold\": 5, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 144, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "Pie Chart of Active Cases",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_cases",
+                            "datasource_type": "table",
+                            "id": 145,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"28__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"active\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 784, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(active)\", \"optionName\": \"metric_e76l6d7oqxp_dpxsgkr34h7\", \"sqlExpression\": null}, \"subheader_font_size\": 0.15, \"time_range\": \"2020-01-01T00:00:00 : 2021-07-13T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 145, \"datasource_name\": \"india_cases\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "Active Cases",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 146,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"29__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 793, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(confirmed)\", \"optionName\": \"metric_p58z1xpoi4d_p6fsuwm6xf\", \"sqlExpression\": null}, \"subheader_font_size\": 0.15, \"time_range\": \"2020-01-01T00:00:00 : 2021-07-13T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 146, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "Confirmed Cases",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 147,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"29__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"recovered\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 791, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(recovered)\", \"optionName\": \"metric_v63dlfs960a_z46ursrc4yq\", \"sqlExpression\": null}, \"subheader_font_size\": 0.15, \"time_range\": \"2020-01-02T00:00:00 : 2021-07-13T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 147, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "Recovered Cases",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 148,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"29__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 790, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(deaths)\", \"optionName\": \"metric_1vgelfdfl4c_na46m7bxz9d\", \"sqlExpression\": null}, \"slice_id\": 148, \"subheader_font_size\": 0.15, \"time_range\": \"2020-01-02T00:00:00 : 2021-07-13T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 148, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "Deaths",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 149,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"29__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"linear_color_scheme\": \"superset_seq_1\", \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 793, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Confirmed\", \"optionName\": \"metric_flouu4a3w9l_l3v8rcn8j8o\", \"sqlExpression\": null}, \"row_limit\": 10000, \"secondary_metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 790, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Deaths\", \"optionName\": \"metric_3oigjfgo584_bwbbcejtklj\", \"sqlExpression\": null}, \"time_range\": \"2020-01-01T00:00:00 : 2021-07-13T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"sunburst\", \"remote_id\": 149, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "State-Wise Death Rate",
+                            "viz_type": "sunburst"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 150,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"0\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_unrffs93rrt_1p26wt4n35j\", \"isExtra\": false, \"isNew\": false, \"operator\": \"!=\", \"sqlExpression\": null, \"subject\": \"confirmed\"}], \"datasource\": \"29__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(deaths/confirmed)*100\", \"optionName\": \"metric_8ohiikjp5wi_jnd32iw179p\", \"sqlExpression\": \"MAX(deaths/confirmed)*100\"}, \"subheader\": \"Punjab\", \"subheader_font_size\": 0.15, \"time_range\": \"2020-01-01T00:00:00 : 2021-07-13T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 150, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "State with the Highest Death Rate",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 151,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"0\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_34oyn5kc702_syjnoku2ywe\", \"isExtra\": false, \"isNew\": false, \"operator\": \"!=\", \"sqlExpression\": null, \"subject\": \"confirmed\"}], \"datasource\": \"29__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(recovered/confirmed)*100\", \"optionName\": \"metric_g32gp9r5k38_wp1dcfvyd6q\", \"sqlExpression\": \"MAX(recovered/confirmed)*100\"}, \"subheader\": \"Dadra and Nagar Haveli and Daman and Diu\", \"subheader_font_size\": 0.15, \"time_range\": \"2020-01-01T00:00:00 : 2021-07-13T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 151, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "State with the Maximum Recovery Rate",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 152,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"29__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 793, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(confirmed)\", \"optionName\": \"metric_e92r1a75k7v_zlm9ttedm9\", \"sqlExpression\": null}, \"subheader\": \"Maharashtra\", \"subheader_font_size\": 0.15, \"time_range\": \"2020-01-01T00:00:00 : 2021-07-13T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 152, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "State with Maximum Confirmed Cases",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 153,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"0\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_a13vw3hrqd_29jkgqov2il\", \"isExtra\": false, \"isNew\": false, \"operator\": \"!=\", \"sqlExpression\": null, \"subject\": \"population\"}], \"datasource\": \"29__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(confirmed/population)*100\", \"optionName\": \"metric_k1na0e1sn2d_f3khgzy3si\", \"sqlExpression\": \"MAX(confirmed/population)*100\"}, \"subheader\": \"Lakshadweep Islands\", \"subheader_font_size\": 0.15, \"time_range\": \"2020-01-01T00:00:00 : 2021-07-13T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 153, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "State with Highest Confirmed Cases per Population",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_cases",
+                            "datasource_type": "table",
+                            "id": 154,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"28__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"last_update\", \"groupby\": [], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 100, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 781, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Confirmed\", \"optionName\": \"metric_322s0hktxcu_ccpfn7mpvlh\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 782, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Deaths\", \"optionName\": \"metric_c46x6qru4xq_ny0u6lx1ul\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"recovered\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 783, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Recovered\", \"optionName\": \"metric_sqwxmjgul8h_naxo3cwtvf\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"active\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 784, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Active\", \"optionName\": \"metric_wsn75zw5uw_u8crg7550y9\", \"sqlExpression\": null}], \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"bar\", \"show_legend\": true, \"time_grain_sqla\": \"P1D\", \"time_range\": \"2020-01-01T00:00:00 : 2021-07-13T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 154, \"datasource_name\": \"india_cases\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "TIME SERIES CHART FOR ACTIVE RECOVERED CONFIRMED DEATHS",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_cases",
+                            "datasource_type": "table",
+                            "id": 155,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Unknown\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_77n0quzs8hd_dm9j5o0kvrq\", \"isExtra\": false, \"isNew\": false, \"operator\": \"!=\", \"sqlExpression\": null, \"subject\": \"province_state\"}, {\"clause\": \"WHERE\", \"comparator\": \"Dadar Nagar Haveli\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_o1jf5vwur29_tbndndp2ch\", \"isExtra\": false, \"isNew\": false, \"operator\": \"!=\", \"sqlExpression\": null, \"subject\": \"province_state\"}], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"28__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"include_search\": true, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"case_fatality_ratio\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 787, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Average of Case Fatality Ratio\", \"optionName\": \"metric_e0gwkr48qsk_zo6klt9n4o\", \"sqlExpression\": null}, {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"incident_rate\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 786, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Average of Incident Rate\", \"optionName\": \"metric_2cswooair3b_ziosdidet5q\", \"sqlExpression\": null}], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"slice_id\": 155, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"2020-01-01T00:00:00 : 2021-07-13T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 155, \"datasource_name\": \"india_cases\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "TABULAR DETAILS OF CASE FATALITY RATIO AND INCIDENT RATE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.india_merge",
+                            "datasource_type": "table",
+                            "id": 207,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"35__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(new_tests)\", \"optionName\": \"metric_gxxpf1szfe_mmvh4v5t88h\", \"sqlExpression\": \"MAX(new_tests)\"}, \"subheader\": \"ON 05-06-2021\", \"subheader_font_size\": 0.15, \"time_range\": \"2020-01-01T00:00:00 : 2021-07-14T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 207, \"datasource_name\": \"india_merge\", \"schema\": \"merged_schema\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "Maximum Tests Conducted on a Single Day",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.india_merge",
+                            "datasource_type": "table",
+                            "id": 208,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"35__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"new_deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 872, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(new_deaths)\", \"optionName\": \"metric_2alhu7iiwtf_8x6kpw7ovrj\", \"sqlExpression\": null}, \"subheader\": \"ON 10-06-2021\", \"subheader_font_size\": 0.15, \"time_range\": \"2020-01-01T00:00:00 : 2021-07-14T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 208, \"datasource_name\": \"india_merge\", \"schema\": \"merged_schema\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "Maximum Deaths on a Single Day",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.india_merge",
+                            "datasource_type": "table",
+                            "id": 209,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"35__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(new_cases)\", \"optionName\": \"metric_cz6xufg1mik_vsog7sajyvm\", \"sqlExpression\": \"MAX(new_cases)\"}, \"subheader\": \"ON 06-05-2021\", \"subheader_font_size\": 0.15, \"time_range\": \"2020-01-01T00:00:00 : 2021-07-14T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 209, \"datasource_name\": \"india_merge\", \"schema\": \"merged_schema\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "Maximum Cases Registered on a Single Day",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.india_merge",
+                            "datasource_type": "table",
+                            "id": 210,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"35__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"date\", \"groupby\": [], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 100, \"markerSize\": 6, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Test Positivity Rate\", \"optionName\": \"metric_lh027lx2la_mr0nlkhlxwo\", \"sqlExpression\": \"MAX(positive_rate)\"}], \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"bar\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"2020-01-01T00:00:00 : 2021-07-14T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 210, \"datasource_name\": \"india_merge\", \"schema\": \"merged_schema\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "TIME-SERIES TREND OF TEST POSITIVITY RATE",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.india_merge",
+                            "datasource_type": "table",
+                            "id": 211,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"35__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"label_colors\": {}, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Daily Cases\", \"optionName\": \"metric_ckwlav9vk1u_nwrln8xgkw\", \"sqlExpression\": \"MAX(new_cases)\"}, \"metric_2\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Daily Vaccinations\", \"optionName\": \"metric_8lveht5va3n_l2iiwdbqpq7\", \"sqlExpression\": \"MAX(new_vaccinations)\"}, \"time_grain_sqla\": \"P1M\", \"time_range\": \"2021-01-01T00:00:00 : 2021-07-14T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dual_line\", \"x_axis_format\": \"smart_date\", \"y_axis_2_bounds\": [null, null], \"y_axis_2_format\": \"SMART_NUMBER\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 211, \"datasource_name\": \"india_merge\", \"schema\": \"merged_schema\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "Daily Cases and Vaccinations Trend From 2021",
+                            "viz_type": "dual_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.india_merge",
+                            "datasource_type": "table",
+                            "id": 212,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"35__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(new_cases)\", \"optionName\": \"metric_g3llmvf27n6_t3pdhj485vq\", \"sqlExpression\": \"MAX(new_cases)\"}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"P1W\", \"time_range\": \"2021-01-01T00:00:00 : 2021-07-12T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 212, \"datasource_name\": \"india_merge\", \"schema\": \"merged_schema\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "Weekly New Cases Trend",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 215,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"29__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"label_colors\": {}, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"active\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 792, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(active)\", \"optionName\": \"metric_pvqts2rihtp_tvp29xrhppi\", \"sqlExpression\": null}, \"rotation\": \"square\", \"row_limit\": 10000, \"series\": \"province_state\", \"size_from\": 20, \"size_to\": 90, \"slice_id\": 215, \"time_range\": \"2020-01-01T00:00:00 : 2021-07-15T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"word_cloud\", \"remote_id\": 215, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "State-Wise Active Cases Word Map",
+                            "viz_type": "word_cloud"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.india_merge",
+                            "datasource_type": "table",
+                            "id": 216,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"35__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"date\", \"groupby\": [], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 100, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"new_cases\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 869, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Daily Cases\", \"optionName\": \"metric_8se2j2gr7bt_ux13fww2oa\", \"sqlExpression\": null}], \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"bar\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"2020-01-01T00:00:00 : 2021-07-15T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 216, \"datasource_name\": \"india_merge\", \"schema\": \"merged_schema\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "Daily Registered Cases Trend",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.india_merge",
+                            "datasource_type": "table",
+                            "id": 217,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"35__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(tests_per_case)\", \"optionName\": \"metric_2g1mh114b5u_uapecjtmwk\", \"sqlExpression\": \"MAX(tests_per_case)\"}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"P1D\", \"time_range\": \"2020-03-20T00:00:00 : 2021-07-11T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 217, \"datasource_name\": \"india_merge\", \"schema\": \"merged_schema\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "Tests Done Per Each Confirmed Case",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_cases",
+                            "datasource_type": "table",
+                            "id": 242,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [], \"datasource\": \"28__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"groupby\": [\"last_update\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"COVID19-DEATHS\", \"optionName\": \"metric_qymas3dq1fc_437fex6iag5\", \"sqlExpression\": \"SUM(deaths)\"}], \"order_desc\": true, \"reduce_x_ticks\": true, \"row_limit\": 10000, \"slice_id\": 242, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_axis_label\": \"TIME\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"DEATHS\", \"remote_id\": 242, \"datasource_name\": \"india_cases\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "DEATHS VS TIME",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_cases",
+                            "datasource_type": "table",
+                            "id": 243,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [], \"datasource\": \"28__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"groupby\": [\"last_update\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 781, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Confirmed Cases\", \"optionName\": \"metric_9e1sxcn3yye_qxrn9bl3tp\", \"sqlExpression\": null}], \"order_desc\": true, \"reduce_x_ticks\": true, \"row_limit\": 10000, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_axis_label\": \"TIME\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"CONFIRMED\", \"remote_id\": 243, \"datasource_name\": \"india_cases\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "CONFIRMED VS TIME",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 244,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"29__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"include_search\": true, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"ACTIVE CASES\", \"optionName\": \"metric_s5mh18pmuj_3y9bd7qkdb\", \"sqlExpression\": \"MAX(active)\"}], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": 10, \"server_page_length\": 10, \"show_cell_bars\": true, \"slice_id\": 244, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"2020-01-01T00:00:00 : 2021-07-15T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 244, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "TOP 10 ACTIVE CASES STATES",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 245,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"29__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"include_search\": true, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(active)\", \"optionName\": \"metric_1sgnzffm11t_rwis29mu9jq\", \"sqlExpression\": \"MAX(active)\"}], \"order_by_cols\": [], \"order_desc\": false, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": \"20\", \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 245, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "TOP 20 UNSAFE STATES",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_superset",
+                            "datasource_type": "table",
+                            "id": 246,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Unknown\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_rd5so37jewc_f2rdqb67vk9\", \"isExtra\": false, \"isNew\": false, \"operator\": \"!=\", \"sqlExpression\": null, \"subject\": \"province_state\"}], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"29__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"include_search\": true, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"ACTIVE CASES\", \"optionName\": \"metric_8n8fx4ru4s2_21x05sqsqfb\", \"sqlExpression\": \"MIN(active)\"}], \"order_by_cols\": [], \"order_desc\": false, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": \"20\", \"server_page_length\": 10, \"show_cell_bars\": true, \"slice_id\": 246, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(active)\", \"optionName\": \"metric_hpmw5d8b24m_0jt0yhf20zme\", \"sqlExpression\": \"MAX(active)\"}, \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 246, \"datasource_name\": \"india_superset\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "TOP 20 SAFE STATES",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_cases",
+                            "datasource_type": "table",
+                            "id": 247,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"0\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_qrxcehtlbw_dfqt40ltu5q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"!=\", \"sqlExpression\": null, \"subject\": \"confirmed\"}], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"28__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Deaths\", \"optionName\": \"metric_01wnlzaxk444_u8kwbv1x9ad\", \"sqlExpression\": \"MAX(deaths)\"}, {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Confimed Cases\", \"optionName\": \"metric_deijxa456bm_p3hdhim0bx\", \"sqlExpression\": \"MAX(confirmed)\"}, {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Death Rate (Deaths to Confirmed Ratio)\", \"optionName\": \"metric_bhbhmi388rm_d4t7nox6b9j\", \"sqlExpression\": \"MAX(deaths)*100/MAX(confirmed)\"}], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 247, \"datasource_name\": \"india_cases\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "DEATHS/CONFIRM RATIO TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_cases",
+                            "datasource_type": "table",
+                            "id": 248,
+                            "params": "{\"adhoc_filters\": [], \"cell_padding\": 2, \"cell_radius\": 2, \"cell_size\": 14, \"datasource\": \"28__table\", \"domain_granularity\": \"month\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"linear_color_scheme\": \"superset_seq_1\", \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"INCIDENT RATE\", \"optionName\": \"metric_fbgf7txyfkl_vimsci675io\", \"sqlExpression\": \"MAX(incident_rate)\"}], \"show_legend\": true, \"show_metric_name\": true, \"steps\": 10, \"subdomain_granularity\": \"day\", \"time_range\": \"2020-08-01T00:00:00 : 2021-07-15T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"cal_heatmap\", \"x_axis_time_format\": \"smart_date\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 248, \"datasource_name\": \"india_cases\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "INCIDENT RATE CALENDAR",
+                            "viz_type": "cal_heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "india_daily_cases.india_cases",
+                            "datasource_type": "table",
+                            "id": 249,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"28__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"groupby\": [\"country_region\"], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(incident_rate)\", \"optionName\": \"metric_zbo0n7kon2p_4mqyn8s6tcq\", \"sqlExpression\": \"MAX(incident_rate)\"}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"show_brush\": \"auto\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 249, \"datasource_name\": \"india_cases\", \"schema\": \"india_daily_cases\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "INCIDENT RATE GRAPH",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.india_merge",
+                            "datasource_type": "table",
+                            "id": 250,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"35__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"groupby\": [], \"label_colors\": {}, \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Tests Done Per Day\", \"optionName\": \"metric_rgoimylgzkl_1ppn6hy7ci9\", \"sqlExpression\": \"MAX(new_tests)\"}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"show_brush\": \"auto\", \"slice_id\": 250, \"stacked_style\": \"stack\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"2020-04-01T00:00:00 : 2021-07-15T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"area\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 250, \"datasource_name\": \"india_merge\", \"schema\": \"merged_schema\", \"database_name\": \"INDIA_COVID\"}",
+                            "slice_name": "Daily-wise Tests Done",
+                            "viz_type": "area"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "fips",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 774,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "ba46f4dc-c92a-4a90-94ce-b3f68e38195d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "admin2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 775,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "fc45fa8a-b8af-4cb2-b356-ea1a3148f42a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "province_state",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 776,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "c83a8174-02fc-4ff4-909e-ad692ed0763a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "country_region",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 777,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "edb1bc26-8b4e-4661-8ddb-0d3d1962967d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "last_update",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 778,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TIMESTAMP_NTZ",
+                            "uuid": "53e7084a-f254-4013-9b88-52bfa02e7bf8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "lat",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 779,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "FLOAT",
+                            "uuid": "7d44c163-08e4-4120-b732-16dbcab6e19c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "long",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 780,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "FLOAT",
+                            "uuid": "d2e15e47-dd29-4cff-916e-2eec78620903",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 781,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "c5dbd7c3-dcb9-4851-a139-07bbe119ff11",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 782,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "4413b660-f63e-46b6-89d0-6f8233fa388e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 783,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "89b37f97-a211-4bd4-910a-02fc719776bb",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "active",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 784,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "2bd6ea58-2b37-438d-83ba-d0729d5ffe5d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "combined_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 785,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "a882648f-fc22-4d64-a021-a39466b5cb49",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "incident_rate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 786,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "FLOAT",
+                            "uuid": "354454a8-2669-4719-88d5-2a41917621b6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "column_name": "case_fatality_ratio",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 787,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "FLOAT",
+                            "uuid": "36916cc5-c054-4b62-b6a8-37ada0d86c65",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "last_update",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:27:12"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:27:12"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 36,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 28,
+                            "uuid": "888015a9-a685-4391-b3f8-8fe7c67656c9",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 28, \"database_name\": \"INDIA_COVID\"}",
+                "schema": "india_daily_cases",
+                "sql": null,
+                "table_name": "india_cases",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "column_name": "province_state",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 788,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "37fa2cd9-6e94-4142-9772-4f37d9841a8c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "column_name": "last_update",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 789,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "TIMESTAMP_NTZ",
+                            "uuid": "ae7945aa-770a-489b-a4dd-a888ccef5792",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 790,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "ad0f9b39-e288-4a92-b503-3f2cb63f8fd5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 791,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "799cda47-5a33-4b0d-bc32-a12ed15ddf76",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "column_name": "active",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 792,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "01ac768a-6d3d-4be7-a4f9-bb41d9bc5f5b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 793,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "5a1659e4-8a27-400d-951b-966e818844e8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "column_name": "code",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 794,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "d6ec239e-b256-455a-b5bf-7b3890358a3b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "column_name": "population",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 795,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "10b69f12-61cf-4f19-a377-9fb90dbc06e1",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "last_update",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-13T08:28:25"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 37,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 29,
+                            "uuid": "078ed25d-089f-4cb1-83d1-12e93789ab42",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 29, \"database_name\": \"INDIA_COVID\"}",
+                "schema": "india_daily_cases",
+                "sql": null,
+                "table_name": "india_superset",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 867,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "DATE",
+                            "uuid": "fe200fa2-0782-414c-b8c3-166b4150a4c7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "total_cases",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 868,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "9cd9def0-6d1e-4cc8-b0bf-25ab5617f0ec",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "new_cases",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 869,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "1439addc-ac8a-43d0-aaf5-e33e8cc9258a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "new_cases_smoothed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 870,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "FLOAT",
+                            "uuid": "76038fd1-dbe4-4362-b399-b5452fa7c91f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "total_deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 871,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "a4fee8f9-a31f-4103-ba73-2959cc18d5e7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "new_deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 872,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "0f5703c2-c36c-452e-958c-be46a1bd4ac6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "new_deaths_smoothed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 873,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "FLOAT",
+                            "uuid": "10844971-2369-4951-a81e-5268f2213867",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "new_tests",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 874,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "8e1ffec3-b5cd-4a0a-aef9-b16d5d5f0d0a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "total_tests",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 875,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "a1e41e8d-425b-4fcc-ad5b-4d1d0e12a0c4",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "positive_rate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 876,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "FLOAT",
+                            "uuid": "b89e33ac-fcea-407c-92c6-78204b660d1d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "tests_per_case",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 877,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "FLOAT",
+                            "uuid": "ffc57372-fff4-4a66-9ab1-662fd7ad3ddc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "total_vaccinations",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 878,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "835661b5-8777-42f7-88e0-d3973dd31887",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "people_vaccinated",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 879,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "dd95b22a-7a33-4c98-bd6f-f3cac332e075",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "people_fully_vaccinated",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 880,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "842fcdab-50ca-4b54-8c23-7cd2dcc908fd",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "column_name": "new_vaccinations",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 881,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 35,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "fa23de6b-25b3-4559-b478-a02baa5a0df6",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "date",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:50:08"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 43,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 35,
+                            "uuid": "218cdeaf-2cde-4eac-846c-d978f754c301",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 35, \"database_name\": \"INDIA_COVID\"}",
+                "schema": "merged_schema",
+                "sql": null,
+                "table_name": "india_merge",
+                "template_params": null
+            }
+        }
+    ]
+}

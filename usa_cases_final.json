@@ -1,0 +1,1872 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": ".dashboard-component-chart-holder\n{\n  border-style:solid;\n  border-color:red;\n}\n\n",
+                "dashboard_title": "USA COVID-19 DASHBOARD",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": \"SUPERSET_DEFAULT\", \"label_colors\": {\"US\": \"#1f77b4\", \"SUM(confirmed)\": \"#1f77b4\", \"SUM(deaths)\": \"#ff7f0e\", \"California\": \"#1f77b4\", \"Florida\": \"#ff7f0e\", \"Illinois\": \"#2ca02c\", \"New York\": \"#d62728\", \"Georgia\": \"#9467bd\", \"Arizona\": \"#8c564b\", \"New Jersey\": \"#e377c2\", \"Colorado\": \"#7f7f7f\", \"Virginia\": \"#bcbd22\", \"Texas\": \"#17becf\", \"Maryland\": \"#1f77b4\", \"Washington\": \"#ff7f0e\", \"Kentucky\": \"#2ca02c\", \"Kansas\": \"#d62728\", \"Nevada\": \"#9467bd\", \"Michigan\": \"#8c564b\", \"Pennsylvania\": \"#e377c2\", \"Alabama\": \"#7f7f7f\", \"Connecticut\": \"#bcbd22\", \"Indiana\": \"#17becf\", \"Ohio\": \"#1f77b4\", \"South Carolina\": \"#ff7f0e\", \"North Carolina\": \"#2ca02c\", \"Massachusetts\": \"#d62728\", \"Oregon\": \"#9467bd\", \"Idaho\": \"#8c564b\", \"Rhode Island\": \"#e377c2\", \"New Mexico\": \"#7f7f7f\", \"Tennessee\": \"#bcbd22\", \"Wisconsin\": \"#17becf\", \"Louisiana\": \"#1f77b4\", \"Utah\": \"#ff7f0e\", \"Mississippi\": \"#2ca02c\", \"Nebraska\": \"#d62728\", \"Alaska\": \"#9467bd\", \"Arkansas\": \"#8c564b\", \"Delaware\": \"#e377c2\", \"Oklahoma\": \"#7f7f7f\", \"Iowa\": \"#bcbd22\", \"West Virginia\": \"#17becf\", \"American Samoa\": \"#1f77b4\", \"Diamond Princess\": \"#ff7f0e\", \"District of Columbia\": \"#2ca02c\", \"Grand Princess\": \"#d62728\", \"Hawaii\": \"#9467bd\", \"Northern Mariana Islands\": \"#8c564b\", \"Guam\": \"#e377c2\", \"Missouri\": \"#7f7f7f\", \"New Hampshire\": \"#bcbd22\", \"South Dakota\": \"#17becf\", \"Minnesota\": \"#1f77b4\", \"Vermont\": \"#ff7f0e\", \"Montana\": \"#2ca02c\", \"North Dakota\": \"#d62728\", \"Puerto Rico\": \"#9467bd\", \"Virgin Islands\": \"#8c564b\", \"Wyoming\": \"#e377c2\", \"Maine\": \"#7f7f7f\"}, \"remote_id\": 1, \"import_time\": 1626287406}",
+                "position_json": "{\"CHART-6cKM32GB6F\":{\"children\":[],\"id\":\"CHART-6cKM32GB6F\",\"meta\":{\"chartId\":71,\"height\":45,\"sliceName\":\"GENERAL DIAGNOSTICS\",\"uuid\":\"d31bb36e-07ab-41b8-92cf-0f7ae43fcf19\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-W_HnK5GNzs\"],\"type\":\"CHART\"},\"CHART-7kbw6MqVdc\":{\"children\":[],\"id\":\"CHART-7kbw6MqVdc\",\"meta\":{\"chartId\":34,\"height\":33,\"sliceName\":\"Test Positivity Trend in the US\",\"uuid\":\"47149fed-202f-481d-9119-b1a51d12437d\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-3eqivLWW-J\"],\"type\":\"CHART\"},\"CHART-A7ZwK5Dgtd\":{\"children\":[],\"id\":\"CHART-A7ZwK5Dgtd\",\"meta\":{\"chartId\":72,\"height\":40,\"sliceName\":\"STATE WITH MAXIMUM CONFIRMED CASES\",\"uuid\":\"9ff54e96-7d17-43e1-be6b-b73e7f131cb6\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-n9YPmXwLTn\"],\"type\":\"CHART\"},\"CHART-Aj_3pi3wuU\":{\"children\":[],\"id\":\"CHART-Aj_3pi3wuU\",\"meta\":{\"chartId\":14,\"height\":56,\"sliceName\":\"DEATH/CONFIRM RATIO TABLE\",\"uuid\":\"fb7a6c65-a7b3-48e5-8ca5-99e54deb9bb0\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-d9UoktONM7\"],\"type\":\"CHART\"},\"CHART-BSvea8gAjB\":{\"children\":[],\"id\":\"CHART-BSvea8gAjB\",\"meta\":{\"chartId\":37,\"height\":33,\"sliceName\":\"Tests Done Per Each Confirmed Case\",\"uuid\":\"31f22aa7-bad5-4899-ac89-3750ace3a2c7\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-3eqivLWW-J\",\"COLUMN-c1c4M2azLX\"],\"type\":\"CHART\"},\"CHART-F4rGLhhu_U\":{\"children\":[],\"id\":\"CHART-F4rGLhhu_U\",\"meta\":{\"chartId\":40,\"height\":33,\"sliceName\":\"Confirmed Cases per 100 Tests\",\"uuid\":\"73d92fbe-ff4e-4a4c-9120-e417c1374259\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-3eqivLWW-J\",\"COLUMN-yiIg7UiE19\"],\"type\":\"CHART\"},\"CHART-Iwgo0C5H6K\":{\"children\":[],\"id\":\"CHART-Iwgo0C5H6K\",\"meta\":{\"chartId\":33,\"height\":44,\"sliceName\":\"Highest Deaths Occurred on a Single Day\",\"uuid\":\"61e100c0-3ef5-465b-86c4-04abf8ee09d4\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-eMq3-dpOrM\",\"COLUMN-a1z3-pcppI\"],\"type\":\"CHART\"},\"CHART-LSmXvovsPa\":{\"children\":[],\"id\":\"CHART-LSmXvovsPa\",\"meta\":{\"chartId\":73,\"height\":40,\"sliceName\":\"STATE WITH MAXIMUM DEATHS\",\"uuid\":\"7cc2793e-b2c9-4b12-b89d-5bc5c6b2aa5a\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-n9YPmXwLTn\"],\"type\":\"CHART\"},\"CHART-MgnPOcpYQM\":{\"children\":[],\"id\":\"CHART-MgnPOcpYQM\",\"meta\":{\"chartId\":32,\"height\":44,\"sliceName\":\"Highest Number of Cases Registered on a Single Day\",\"uuid\":\"9d77de50-9432-4769-a719-aef33c814784\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-eMq3-dpOrM\",\"COLUMN-kL3YM_L1dN\"],\"type\":\"CHART\"},\"CHART-NsipipN_iE\":{\"children\":[],\"id\":\"CHART-NsipipN_iE\",\"meta\":{\"chartId\":4,\"height\":24,\"sliceName\":\"TOTAL DEATHS\",\"uuid\":\"b5d84294-4017-4d61-a37a-c0f833da7638\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-kWzuj7w7_e\",\"COLUMN-9n10tXfjlT\"],\"type\":\"CHART\"},\"CHART-SIzZc2QHCu\":{\"children\":[],\"id\":\"CHART-SIzZc2QHCu\",\"meta\":{\"chartId\":74,\"height\":40,\"sliceName\":\"STATE WITH MAXIMUM RECOVERIES\",\"uuid\":\"b238ad03-85e7-4867-a402-d5c3060fedad\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-n9YPmXwLTn\"],\"type\":\"CHART\"},\"CHART-VelsGvMnY3\":{\"children\":[],\"id\":\"CHART-VelsGvMnY3\",\"meta\":{\"chartId\":38,\"height\":50,\"sliceName\":\"Daily Registered Cases Trend\",\"uuid\":\"e3845347-9e97-4a7b-8d83-e81cf9e043d2\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-KRkmJ21_S-\"],\"type\":\"CHART\"},\"CHART-Y2CiBwiPmz\":{\"children\":[],\"id\":\"CHART-Y2CiBwiPmz\",\"meta\":{\"chartId\":11,\"height\":50,\"sliceName\":\"PIE CHART OF ACTIVE CASES\",\"uuid\":\"53b81f86-4646-49f2-8781-becc07fa34e2\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-q1pgAtP1qm\"],\"type\":\"CHART\"},\"CHART-bIONBVjY0z\":{\"children\":[],\"id\":\"CHART-bIONBVjY0z\",\"meta\":{\"chartId\":30,\"height\":45,\"sliceName\":\"Daily Cases vs Vaccinations Trend in USA\",\"uuid\":\"2bb20091-bde8-4e6c-add7-d4008606f5c7\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Oui-zV_C2C\"],\"type\":\"CHART\"},\"CHART-bxWbJ1KAFV\":{\"children\":[],\"id\":\"CHART-bxWbJ1KAFV\",\"meta\":{\"chartId\":1,\"height\":56,\"sliceName\":\"- PROVINCE WISE- CONFIRMED/DEATH RATIO\",\"sliceNameOverride\":\"RATIO OF DEATH PER CONFIRMED CASES\",\"uuid\":\"ff2ad605-ee7f-4b75-b19b-92ce0e1937f4\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-d9UoktONM7\"],\"type\":\"CHART\"},\"CHART-d-4Nki7wtV\":{\"children\":[],\"id\":\"CHART-d-4Nki7wtV\",\"meta\":{\"chartId\":13,\"height\":50,\"sliceName\":\"TOP 20 UNSAFE STATES\",\"uuid\":\"ed79e2ab-9660-4000-9886-cc99906a8e73\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-q1pgAtP1qm\"],\"type\":\"CHART\"},\"CHART-iQExD8_tu6\":{\"children\":[],\"id\":\"CHART-iQExD8_tu6\",\"meta\":{\"chartId\":39,\"height\":51,\"sliceName\":\"USA CONFIRMED CASES MAP\",\"uuid\":\"d259a3c0-b3a4-41d5-8be3-87bbc115c07d\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-jEHWvVrxwv\"],\"type\":\"CHART\"},\"CHART-lxa98tz2-k\":{\"children\":[],\"id\":\"CHART-lxa98tz2-k\",\"meta\":{\"chartId\":6,\"height\":54,\"sliceName\":\"ACTIVE CASES-WORD CLOUD-NEW\",\"sliceNameOverride\":\"ACTIVE CASES\",\"uuid\":\"e8042ab2-13fb-4370-9100-6dafe444112f\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-S2LnFOA3g3\"],\"type\":\"CHART\"},\"CHART-mCihTrf8uw\":{\"children\":[],\"id\":\"CHART-mCihTrf8uw\",\"meta\":{\"chartId\":3,\"height\":24,\"sliceName\":\"TOTAL CASES\",\"uuid\":\"49c8fbe3-940d-4326-b761-f845c3fbba11\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-kWzuj7w7_e\",\"COLUMN-qoLJowNGSP\"],\"type\":\"CHART\"},\"CHART-mqEOLhlLjT\":{\"children\":[],\"id\":\"CHART-mqEOLhlLjT\",\"meta\":{\"chartId\":17,\"height\":51,\"sliceName\":\"INCIDENT RATE GRAPH\",\"uuid\":\"a089f72d-853e-4930-a304-8511219bb7ba\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-KRkmJ21_S-\"],\"type\":\"CHART\"},\"CHART-mwhULUCcPc\":{\"children\":[],\"id\":\"CHART-mwhULUCcPc\",\"meta\":{\"chartId\":2,\"height\":24,\"sliceName\":\"ACTIVE CASES\",\"uuid\":\"6f02c208-b482-4031-afe6-c234373d6e08\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-kWzuj7w7_e\",\"COLUMN-2LgN3PBwck\"],\"type\":\"CHART\"},\"CHART-njW841S79i\":{\"children\":[],\"id\":\"CHART-njW841S79i\",\"meta\":{\"chartId\":70,\"height\":47,\"sliceName\":\"USA TIME SERIES CHART- CONFIRMED,ACTIVE,RECOVERED AND DEATHS\",\"uuid\":\"d26b56dc-3138-4081-b567-dc127f0beb22\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-0NG8t5WxgU\"],\"type\":\"CHART\"},\"CHART-p323Ckz6mN\":{\"children\":[],\"id\":\"CHART-p323Ckz6mN\",\"meta\":{\"chartId\":5,\"height\":24,\"sliceName\":\"RECOVERED\",\"uuid\":\"b2be5713-77a2-4c39-a613-4f78b9b68199\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-kWzuj7w7_e\",\"COLUMN-VShBA1AF0S\"],\"type\":\"CHART\"},\"CHART-psP96WXTxl\":{\"children\":[],\"id\":\"CHART-psP96WXTxl\",\"meta\":{\"chartId\":12,\"height\":50,\"sliceName\":\"TOP 20 SAFE STATES\",\"uuid\":\"1b5ba016-24b3-4b37-85a0-4d8a8910c997\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-q1pgAtP1qm\"],\"type\":\"CHART\"},\"CHART-q7-b2egzww\":{\"children\":[],\"id\":\"CHART-q7-b2egzww\",\"meta\":{\"chartId\":31,\"height\":44,\"sliceName\":\"Maximum Tests Conducted on a Single Day in US\",\"uuid\":\"f3732556-2f0a-4668-8e1b-d9456eb7a2e4\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-eMq3-dpOrM\",\"COLUMN-tk_PA5sStY\"],\"type\":\"CHART\"},\"CHART-qjLRwUwEvG\":{\"children\":[],\"id\":\"CHART-qjLRwUwEvG\",\"meta\":{\"chartId\":16,\"height\":26,\"sliceName\":\"INCIDENT RATE CALENDAR\",\"uuid\":\"7cacce96-3d9f-4138-8f14-017436d7fdf7\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Dib3KguDUg\"],\"type\":\"CHART\"},\"CHART-rOcdF_GGIg\":{\"children\":[],\"id\":\"CHART-rOcdF_GGIg\",\"meta\":{\"chartId\":9,\"height\":49,\"sliceName\":\"CONFIRMED VS TIME\",\"uuid\":\"ddae9f6a-1ed0-4d9a-a70e-bb04bbbdf5dc\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-nN-2c4zD4C\"],\"type\":\"CHART\"},\"CHART-s-YAIxIWBU\":{\"children\":[],\"id\":\"CHART-s-YAIxIWBU\",\"meta\":{\"chartId\":7,\"height\":55,\"sliceName\":\"TOP 10 ACTIVE CASES STATES\",\"uuid\":\"ebcfa3b5-d9a2-4ae8-a7cc-b0e4c367d6e8\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-S2LnFOA3g3\"],\"type\":\"CHART\"},\"CHART-z2OXJNwZuz\":{\"children\":[],\"id\":\"CHART-z2OXJNwZuz\",\"meta\":{\"chartId\":10,\"height\":49,\"sliceName\":\"DEATH VS TIME\",\"uuid\":\"8774349d-4892-42be-8947-623d3e323937\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-nN-2c4zD4C\"],\"type\":\"CHART\"},\"COLUMN-2LgN3PBwck\":{\"children\":[\"CHART-mwhULUCcPc\"],\"id\":\"COLUMN-2LgN3PBwck\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-kWzuj7w7_e\"],\"type\":\"COLUMN\"},\"COLUMN-9n10tXfjlT\":{\"children\":[\"CHART-NsipipN_iE\"],\"id\":\"COLUMN-9n10tXfjlT\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-kWzuj7w7_e\"],\"type\":\"COLUMN\"},\"COLUMN-VShBA1AF0S\":{\"children\":[\"CHART-p323Ckz6mN\"],\"id\":\"COLUMN-VShBA1AF0S\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-kWzuj7w7_e\"],\"type\":\"COLUMN\"},\"COLUMN-a1z3-pcppI\":{\"children\":[\"CHART-Iwgo0C5H6K\"],\"id\":\"COLUMN-a1z3-pcppI\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-eMq3-dpOrM\"],\"type\":\"COLUMN\"},\"COLUMN-c1c4M2azLX\":{\"children\":[\"CHART-BSvea8gAjB\"],\"id\":\"COLUMN-c1c4M2azLX\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-3eqivLWW-J\"],\"type\":\"COLUMN\"},\"COLUMN-kL3YM_L1dN\":{\"children\":[\"CHART-MgnPOcpYQM\"],\"id\":\"COLUMN-kL3YM_L1dN\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-eMq3-dpOrM\"],\"type\":\"COLUMN\"},\"COLUMN-qoLJowNGSP\":{\"children\":[\"CHART-mCihTrf8uw\"],\"id\":\"COLUMN-qoLJowNGSP\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-kWzuj7w7_e\"],\"type\":\"COLUMN\"},\"COLUMN-tk_PA5sStY\":{\"children\":[\"CHART-q7-b2egzww\"],\"id\":\"COLUMN-tk_PA5sStY\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-eMq3-dpOrM\"],\"type\":\"COLUMN\"},\"COLUMN-yiIg7UiE19\":{\"children\":[\"CHART-F4rGLhhu_U\"],\"id\":\"COLUMN-yiIg7UiE19\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-3eqivLWW-J\"],\"type\":\"COLUMN\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"ROW-wab1_OqXXt\",\"ROW-kWzuj7w7_e\",\"ROW-z3kqyUf1fD\",\"ROW-S2LnFOA3g3\",\"ROW-TiuFP_hHG8\",\"ROW-jEHWvVrxwv\",\"ROW-nN-2c4zD4C\",\"ROW-q1pgAtP1qm\",\"ROW-n9YPmXwLTn\",\"ROW-0NG8t5WxgU\",\"ROW-d9UoktONM7\",\"ROW-Dib3KguDUg\",\"ROW-KRkmJ21_S-\",\"ROW-W_HnK5GNzs\",\"ROW-eMq3-dpOrM\",\"ROW-3eqivLWW-J\",\"ROW-Oui-zV_C2C\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"USA COVID-19 DASHBOARD\"},\"type\":\"HEADER\"},\"MARKDOWN-bIiirIE_dZ\":{\"children\":[],\"id\":\"MARKDOWN-bIiirIE_dZ\",\"meta\":{\"code\":\"## TIMELINE OF CASES AND DEATHS IN US\\n\\n<iframe src='https://flo.uri.sh/visualisation/6562083/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/6562083/?utm_source=embed&utm_campaign=visualisation/6562083' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>\\n\\n\\n\\n<br />\\n\",\"height\":91,\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-z3kqyUf1fD\"],\"type\":\"MARKDOWN\"},\"MARKDOWN-nUhL7LIuzr\":{\"children\":[],\"id\":\"MARKDOWN-nUhL7LIuzr\",\"meta\":{\"code\":\"<iframe src='https://flo.uri.sh/visualisation/6566742/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/6566742/?utm_source=embed&utm_campaign=visualisation/6566742' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>\",\"height\":86,\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-wab1_OqXXt\"],\"type\":\"MARKDOWN\"},\"MARKDOWN-yE8jduH3ZW\":{\"children\":[],\"id\":\"MARKDOWN-yE8jduH3ZW\",\"meta\":{\"code\":\"<iframe src='https://flo.uri.sh/visualisation/6582670/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/6582670/?utm_source=embed&utm_campaign=visualisation/6582670' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>\\n\",\"height\":84,\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-TiuFP_hHG8\"],\"type\":\"MARKDOWN\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-0NG8t5WxgU\":{\"children\":[\"CHART-njW841S79i\"],\"id\":\"ROW-0NG8t5WxgU\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-3eqivLWW-J\":{\"children\":[\"COLUMN-c1c4M2azLX\",\"COLUMN-yiIg7UiE19\",\"CHART-7kbw6MqVdc\"],\"id\":\"ROW-3eqivLWW-J\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-Dib3KguDUg\":{\"children\":[\"CHART-qjLRwUwEvG\"],\"id\":\"ROW-Dib3KguDUg\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-KRkmJ21_S-\":{\"children\":[\"CHART-mqEOLhlLjT\",\"CHART-VelsGvMnY3\"],\"id\":\"ROW-KRkmJ21_S-\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-Oui-zV_C2C\":{\"children\":[\"CHART-bIONBVjY0z\"],\"id\":\"ROW-Oui-zV_C2C\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-S2LnFOA3g3\":{\"children\":[\"CHART-lxa98tz2-k\",\"CHART-s-YAIxIWBU\"],\"id\":\"ROW-S2LnFOA3g3\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-TiuFP_hHG8\":{\"children\":[\"MARKDOWN-yE8jduH3ZW\"],\"id\":\"ROW-TiuFP_hHG8\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-W_HnK5GNzs\":{\"children\":[\"CHART-6cKM32GB6F\"],\"id\":\"ROW-W_HnK5GNzs\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-d9UoktONM7\":{\"children\":[\"CHART-bxWbJ1KAFV\",\"CHART-Aj_3pi3wuU\"],\"id\":\"ROW-d9UoktONM7\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-eMq3-dpOrM\":{\"children\":[\"COLUMN-tk_PA5sStY\",\"COLUMN-kL3YM_L1dN\",\"COLUMN-a1z3-pcppI\"],\"id\":\"ROW-eMq3-dpOrM\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-jEHWvVrxwv\":{\"children\":[\"CHART-iQExD8_tu6\"],\"id\":\"ROW-jEHWvVrxwv\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-kWzuj7w7_e\":{\"children\":[\"COLUMN-qoLJowNGSP\",\"COLUMN-2LgN3PBwck\",\"COLUMN-VShBA1AF0S\",\"COLUMN-9n10tXfjlT\"],\"id\":\"ROW-kWzuj7w7_e\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-n9YPmXwLTn\":{\"children\":[\"CHART-A7ZwK5Dgtd\",\"CHART-SIzZc2QHCu\",\"CHART-LSmXvovsPa\"],\"id\":\"ROW-n9YPmXwLTn\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-nN-2c4zD4C\":{\"children\":[\"CHART-rOcdF_GGIg\",\"CHART-z2OXJNwZuz\"],\"id\":\"ROW-nN-2c4zD4C\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-q1pgAtP1qm\":{\"children\":[\"CHART-Y2CiBwiPmz\",\"CHART-psP96WXTxl\",\"CHART-d-4Nki7wtV\"],\"id\":\"ROW-q1pgAtP1qm\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-wab1_OqXXt\":{\"children\":[\"MARKDOWN-nUhL7LIuzr\"],\"id\":\"ROW-wab1_OqXXt\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-z3kqyUf1fD\":{\"children\":[\"MARKDOWN-bIiirIE_dZ\"],\"id\":\"ROW-z3kqyUf1fD\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 1,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"SUPERSET_DEFAULT\", \"datasource\": \"1__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"linear_color_scheme\": \"schemeRdPu\", \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 6, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(confirmed)\", \"optionName\": \"metric_mqvqflttrig_5q0k9c7p4yp\", \"sqlExpression\": null}, \"row_limit\": 10000, \"secondary_metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 7, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(deaths)\", \"optionName\": \"metric_i3pa8twlv9h_2xd573r55ni\", \"sqlExpression\": null}, \"slice_id\": 1, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"sunburst\", \"remote_id\": 1, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "- PROVINCE WISE- CONFIRMED/DEATH RATIO",
+                            "viz_type": "sunburst"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 2,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_krp78x5raf_2wovnh59u6i\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"last_update LIKE '2021-03-04%'\", \"subject\": null}], \"datasource\": \"1__table\", \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"active\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 9, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(active)\", \"optionName\": \"metric_q446fguygj_bfo9sa1w0oo\", \"sqlExpression\": null}, \"slice_id\": 6, \"subheader_font_size\": 0.15, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 2, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "ACTIVE CASES",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 3,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_hvhykmbux7u_pjdi93zswgk\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"last_update LIKE '2021-06-22%'\", \"subject\": null}], \"datasource\": \"1__table\", \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 6, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(confirmed)\", \"optionName\": \"metric_z9zp7xqaloa_vxs6u1vf6s\", \"sqlExpression\": null}, \"slice_id\": 7, \"subheader_font_size\": 0.15, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 3, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "TOTAL CASES",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 4,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_kfp54l1tf4b_stw1jf2ij9b\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"last_update LIKE '2021-06-22%'\", \"subject\": null}], \"datasource\": \"1__table\", \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 7, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(deaths)\", \"optionName\": \"metric_n5l7pnmqtck_ft4r9zcutxh\", \"sqlExpression\": null}, \"slice_id\": 8, \"subheader_font_size\": 0.15, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 4, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "TOTAL DEATHS",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 5,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_002drxter6nig_76rfmmy3zrh\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"last_update LIKE '2021-03-04%'\", \"subject\": null}], \"datasource\": \"1__table\", \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"recovered\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 8, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(recovered)\", \"optionName\": \"metric_988kj8o3z6_b8hx5v6djze\", \"sqlExpression\": null}, \"slice_id\": 9, \"subheader_font_size\": 0.15, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 5, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "RECOVERED",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 6,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_d4uqb3f4r79_crfvus55xe5\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"last_update LIKE '2021-03-04%'\", \"subject\": null}], \"color_scheme\": \"d3Category10\", \"datasource\": \"1__table\", \"granularity_sqla\": \"last_update\", \"label_colors\": {}, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"active\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 9, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(active)\", \"optionName\": \"metric_aj96dwis5l9_mt78l7fzrv\", \"sqlExpression\": null}, \"rotation\": \"square\", \"row_limit\": 100, \"series\": \"province_state\", \"size_from\": 10, \"size_to\": 70, \"slice_id\": 10, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"word_cloud\", \"remote_id\": 6, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "ACTIVE CASES-WORD CLOUD-NEW",
+                            "viz_type": "word_cloud"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 7,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_yxp37y2pbx_uv84d83lde\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"last_update LIKE '2021-03-04%'\", \"subject\": null}], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"1__table\", \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"include_search\": true, \"include_time\": false, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"active\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 9, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"ACTIVE CASES\", \"optionName\": \"metric_3hit8gvrvwq_91zbjuyc50t\", \"sqlExpression\": null}], \"order_by_cols\": [], \"order_desc\": true, \"page_length\": null, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": 10, \"show_cell_bars\": true, \"slice_id\": 11, \"table_filter\": false, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 7, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "TOP 10 ACTIVE CASES STATES",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 9,
+                            "params": "{\"adhoc_filters\": [], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [], \"contribution\": false, \"datasource\": \"1__table\", \"granularity_sqla\": \"last_update\", \"groupby\": [\"last_update\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 6, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(confirmed)\", \"optionName\": \"metric_zezuhbgp04d_wg9i6jw20zc\", \"sqlExpression\": null}], \"order_bars\": false, \"order_desc\": false, \"reduce_x_ticks\": true, \"row_limit\": 50000, \"show_bar_value\": false, \"show_legend\": false, \"slice_id\": 14, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_axis_label\": \"TIME\", \"x_ticks_layout\": \"45\\u00b0\", \"y_axis_bounds\": [null, 40000000], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"CONFIRMED CASES\", \"y_axis_showminmax\": true, \"remote_id\": 9, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "CONFIRMED VS TIME",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 10,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"SUPERSET_DEFAULT\", \"columns\": [], \"datasource\": \"1__table\", \"granularity_sqla\": \"last_update\", \"groupby\": [\"last_update\"], \"label_colors\": {\"Alabama\": \"#7f7f7f\", \"Alaska\": \"#9467bd\", \"American Samoa\": \"#1f77b4\", \"Arizona\": \"#8c564b\", \"Arkansas\": \"#8c564b\", \"California\": \"#1f77b4\", \"Colorado\": \"#7f7f7f\", \"Connecticut\": \"#bcbd22\", \"Delaware\": \"#e377c2\", \"Diamond Princess\": \"#ff7f0e\", \"District of Columbia\": \"#2ca02c\", \"Florida\": \"#ff7f0e\", \"Georgia\": \"#9467bd\", \"Grand Princess\": \"#d62728\", \"Guam\": \"#e377c2\", \"Hawaii\": \"#9467bd\", \"Idaho\": \"#8c564b\", \"Illinois\": \"#2ca02c\", \"Indiana\": \"#17becf\", \"Iowa\": \"#bcbd22\", \"Kansas\": \"#d62728\", \"Kentucky\": \"#2ca02c\", \"Louisiana\": \"#1f77b4\", \"Maine\": \"#7f7f7f\", \"Maryland\": \"#1f77b4\", \"Massachusetts\": \"#d62728\", \"Michigan\": \"#8c564b\", \"Minnesota\": \"#1f77b4\", \"Mississippi\": \"#2ca02c\", \"Missouri\": \"#7f7f7f\", \"Montana\": \"#2ca02c\", \"Nebraska\": \"#d62728\", \"Nevada\": \"#9467bd\", \"New Hampshire\": \"#bcbd22\", \"New Jersey\": \"#e377c2\", \"New Mexico\": \"#7f7f7f\", \"New York\": \"#d62728\", \"North Carolina\": \"#2ca02c\", \"North Dakota\": \"#d62728\", \"Northern Mariana Islands\": \"#8c564b\", \"Ohio\": \"#1f77b4\", \"Oklahoma\": \"#7f7f7f\", \"Oregon\": \"#9467bd\", \"Pennsylvania\": \"#e377c2\", \"Puerto Rico\": \"#9467bd\", \"Rhode Island\": \"#e377c2\", \"SUM(confirmed)\": \"#1f77b4\", \"SUM(deaths)\": \"#ff7f0e\", \"South Carolina\": \"#ff7f0e\", \"South Dakota\": \"#17becf\", \"Tennessee\": \"#bcbd22\", \"Texas\": \"#17becf\", \"US\": \"#1f77b4\", \"Utah\": \"#ff7f0e\", \"Vermont\": \"#ff7f0e\", \"Virgin Islands\": \"#8c564b\", \"Virginia\": \"#bcbd22\", \"Washington\": \"#ff7f0e\", \"West Virginia\": \"#17becf\", \"Wisconsin\": \"#17becf\", \"Wyoming\": \"#e377c2\"}, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 7, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"COVID19 DEATHS\", \"optionName\": \"metric_pb2x4nfe3id_2ox8tab1zxo\", \"sqlExpression\": null}], \"order_desc\": true, \"reduce_x_ticks\": true, \"row_limit\": 50000, \"slice_id\": 15, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_axis_label\": \"TIME\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, 1000000], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"DEATHS\", \"remote_id\": 10, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "DEATH VS TIME",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 11,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_9lp8a1n9e3v_9yq5y7b5bp\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"last_update LIKE '2021-03-04%'\", \"subject\": null}], \"color_scheme\": \"lyftColors\", \"datasource\": \"1__table\", \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"innerRadius\": 30, \"label_type\": \"key\", \"labels_outside\": true, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"active\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 9, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(active)\", \"optionName\": \"metric_wmv98ck4588_kzmkmpa3yy\", \"sqlExpression\": null}, \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 70, \"row_limit\": 10000, \"show_labels\": true, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 11, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "PIE CHART OF ACTIVE CASES",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 12,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_9bpb7xn1qq9_razu79u6eii\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"last_update LIKE '2021-03-04%'\", \"subject\": null}], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"1__table\", \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"include_search\": true, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"active\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 9, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"ACTIVE CASES\", \"optionName\": \"metric_q52v80xlk5e_r4zykdxhwf\", \"sqlExpression\": null}], \"order_by_cols\": [], \"order_desc\": false, \"page_length\": 20, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": \"20\", \"show_cell_bars\": false, \"slice_id\": 18, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": {\"aggregate\": \"MIN\", \"column\": {\"column_name\": \"active\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 9, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MIN(active)\", \"optionName\": \"metric_b37raat7v78_jphhq91lxc\", \"sqlExpression\": null}, \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 12, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "TOP 20 SAFE STATES",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 13,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_9bpb7xn1qq9_razu79u6eii\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"last_update LIKE '2021-03-04%'\", \"subject\": null}], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"1__table\", \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"include_search\": true, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"active\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 9, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"ACTIVE CASES\", \"optionName\": \"metric_q52v80xlk5e_r4zykdxhwf\", \"sqlExpression\": null}], \"order_by_cols\": [], \"order_desc\": false, \"page_length\": 20, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": \"20\", \"show_cell_bars\": false, \"slice_id\": 19, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": [], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 13, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "TOP 20 UNSAFE STATES",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 14,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_moq0jh618wf_ceywnz8x524\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"confirmed != 0\", \"subject\": null}], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"1__table\", \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"include_search\": true, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"DEATHS\", \"optionName\": \"metric_p5dr73pom3b_3u7r6xrhgxo\", \"sqlExpression\": \"MAX(deaths)\"}, {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"CONFIRMED CASES\", \"optionName\": \"metric_cuwcsu9zu0d_4c2bjigpbi5\", \"sqlExpression\": \"MAX(confirmed)\"}, {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"DEATHS/CONFIRMED RATIO\", \"optionName\": \"metric_bgl9zr2ns6_9ocw1zaul4j\", \"sqlExpression\": \"MAX(deaths)/MAX(confirmed)\"}], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": 10000, \"show_cell_bars\": false, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 14, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "DEATH/CONFIRM RATIO TABLE",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 16,
+                            "params": "{\"adhoc_filters\": [], \"cell_padding\": 2, \"cell_size\": 10, \"datasource\": \"1__table\", \"domain_granularity\": \"month\", \"granularity_sqla\": \"last_update\", \"linear_color_scheme\": \"superset_seq_1\", \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"INCIDENT RATE\", \"optionName\": \"metric_hiipv643sz6_ttpat2ci4us\", \"sqlExpression\": \"SUM(incident_rate)\"}], \"show_legend\": true, \"show_metric_name\": true, \"slice_id\": 30, \"steps\": 10, \"subdomain_granularity\": \"day\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"cal_heatmap\", \"x_axis_time_format\": \"smart_date\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 16, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "INCIDENT RATE CALENDAR",
+                            "viz_type": "cal_heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 17,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"last_update\", \"groupby\": [\"country_region\"], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"incident_rate\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 11, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(incident_rate)\", \"optionName\": \"metric_uucuq5bje2_8aae9t9iks9\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"show_brush\": \"auto\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 17, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                            "slice_name": "INCIDENT RATE GRAPH",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.us_merge",
+                            "datasource_type": "table",
+                            "id": 30,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"SUPERSET_DEFAULT\", \"datasource\": \"22__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"label_colors\": {}, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"new_cases\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 839, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Daily Cases\", \"optionName\": \"metric_hujrjjgo30d_zyri5y4hkil\", \"sqlExpression\": null}, \"metric_2\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"new_vaccinations\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 851, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Daily Vaccinations\", \"optionName\": \"metric_yi0v6cg4jh_ywds2ay6mj\", \"sqlExpression\": null}, \"show_legend\": false, \"slice_id\": 30, \"time_grain_sqla\": \"P1W\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dual_line\", \"x_axis_format\": \"smart_date\", \"y_axis_2_bounds\": [null, null], \"y_axis_2_format\": \"SMART_NUMBER\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 30, \"datasource_name\": \"us_merge\", \"schema\": \"merged_schema\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "Daily Cases vs Vaccinations Trend in USA",
+                            "viz_type": "dual_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.us_merge",
+                            "datasource_type": "table",
+                            "id": 31,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"22__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"new_tests\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 265, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(new_tests)\", \"optionName\": \"metric_b5j7v7xuqpa_c1eo96bouy6\", \"sqlExpression\": null}, \"slice_id\": 31, \"subheader\": \"ON 06-01-2021\", \"subheader_font_size\": 0.15, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 31, \"datasource_name\": \"us_merge\", \"schema\": \"merged_schema\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "Maximum Tests Conducted on a Single Day in US",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.us_merge",
+                            "datasource_type": "table",
+                            "id": 32,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"22__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"new_cases\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 260, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(new_cases)\", \"optionName\": \"metric_ewhts4tmisd_4ng30zir16l\", \"sqlExpression\": null}, \"slice_id\": 32, \"subheader\": \"ON 02-01-2021\", \"subheader_font_size\": 0.15, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 32, \"datasource_name\": \"us_merge\", \"schema\": \"merged_schema\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "Highest Number of Cases Registered on a Single Day",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.us_merge",
+                            "datasource_type": "table",
+                            "id": 33,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"22__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"new_deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 263, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(new_deaths)\", \"optionName\": \"metric_hts943v1lv_sb2wk4atnv\", \"sqlExpression\": null}, \"slice_id\": 33, \"subheader\": \"ON 12-01-2021\", \"subheader_font_size\": 0.15, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 33, \"datasource_name\": \"us_merge\", \"schema\": \"merged_schema\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "Highest Deaths Occurred on a Single Day",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.us_merge",
+                            "datasource_type": "table",
+                            "id": 34,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"SUPERSET_DEFAULT\", \"datasource\": \"22__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"date\", \"groupby\": [], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 100, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"positive_rate\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 267, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Test Positivity Rate\", \"optionName\": \"metric_trn5x0m4rh_aiv1b70qmhk\", \"sqlExpression\": null}], \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"bar\", \"slice_id\": 34, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 34, \"datasource_name\": \"us_merge\", \"schema\": \"merged_schema\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "Test Positivity Trend in the US",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.us_merge",
+                            "datasource_type": "table",
+                            "id": 37,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"22__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"tests_per_case\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 268, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(tests_per_case)\", \"optionName\": \"metric_q75wqf9215_rqd30iymiga\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"slice_id\": 37, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 37, \"datasource_name\": \"us_merge\", \"schema\": \"merged_schema\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "Tests Done Per Each Confirmed Case",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.us_merge",
+                            "datasource_type": "table",
+                            "id": 38,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"SUPERSET_DEFAULT\", \"datasource\": \"22__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"date\", \"groupby\": [], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 100, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"new_cases\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 260, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Daily New Cases\", \"optionName\": \"metric_pldza6bfdd_2a8vkpvpabm\", \"sqlExpression\": null}], \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"seriesType\": \"bar\", \"slice_id\": 38, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 38, \"datasource_name\": \"us_merge\", \"schema\": \"merged_schema\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "Daily Registered Cases Trend",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases_superset",
+                            "datasource_type": "table",
+                            "id": 39,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"7__table\", \"entity\": \"code\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"linear_color_scheme\": \"superset_seq_1\", \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 108, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(confirmed)\", \"optionName\": \"metric_9wmd1eq6m2_6r3pr7qs5ad\", \"sqlExpression\": null}, \"number_format\": \"SMART_NUMBER\", \"select_country\": \"usa\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"country_map\", \"remote_id\": 39, \"datasource_name\": \"us_cases_superset\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "USA CONFIRMED CASES MAP",
+                            "viz_type": "country_map"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "merged_schema.us_merge",
+                            "datasource_type": "table",
+                            "id": 40,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"22__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"100/MAX(tests_per_case)\", \"optionName\": \"metric_q75wqf9215_rqd30iymiga\", \"sqlExpression\": \"100/MAX(tests_per_case)\"}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 40, \"datasource_name\": \"us_merge\", \"schema\": \"merged_schema\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "Confirmed Cases per 100 Tests",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 70,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"SUPERSET_DEFAULT\", \"datasource\": \"1__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"last_update\", \"groupby\": [], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 100, \"markerEnabled\": true, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 6, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"CONFIRMED\", \"optionName\": \"metric_epj9w9e3kwp_tzx8k0kmdh\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"active\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 9, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"ACTIVE\", \"optionName\": \"metric_gfqr48rzo3c_wrnhqh7can\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 7, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"DEATHS\", \"optionName\": \"metric_4bzhsex1d8o_5o24s987c8p\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"recovered\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 8, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"RECOVERED\", \"optionName\": \"metric_pav3jg5d1zc_wp2fe0o8omg\", \"sqlExpression\": null}], \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 50000, \"seriesType\": \"bar\", \"show_legend\": true, \"time_grain_sqla\": \"P1D\", \"time_range\": \"DATEADD(DATETIME(\\\"2021-03-01T00:00:00\\\"), -300, day) : 2021-03-01T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"zoomable\": true, \"remote_id\": 70, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "USA TIME SERIES CHART- CONFIRMED,ACTIVE,RECOVERED AND DEATHS",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases",
+                            "datasource_type": "table",
+                            "id": 71,
+                            "params": "{\"adhoc_filters\": [], \"align_pn\": true, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"1__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"groupby\": [\"province_state\"], \"include_search\": true, \"include_time\": false, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"CASE_FATALITY_RATIO\\t\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 14, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"AVERAGE CASE FATALITY RATIO\", \"optionName\": \"metric_7z21475dtxa_zve2whhf5z\", \"sqlExpression\": null}, {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"PEOPLE_HOSPITALIZED\\t\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 13, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DECIMAL(38, 0)\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"AVERAGE PEOPLE HOSPITALIZED\", \"optionName\": \"metric_4p6omkmd0k2_1ysaenltwqc\", \"sqlExpression\": null}, {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"incident_rate\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 11, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"AVERAGE INCIDENT RATE\", \"optionName\": \"metric_4taip3asy8_irjftofnbb\", \"sqlExpression\": null}, {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"testing_rate\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 17, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"AVERAGE TESTING RATE\", \"optionName\": \"metric_yovkg1eyt9_xk1nmeuj22e\", \"sqlExpression\": null}], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": false, \"show_totals\": false, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1Y\", \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 71, \"datasource_name\": \"us_cases\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "GENERAL DIAGNOSTICS",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases_superset",
+                            "datasource_type": "table",
+                            "id": 72,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"7__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(confirmed)\", \"optionName\": \"metric_77xlxoh93hw_efl3m69tre\", \"sqlExpression\": \"MAX(confirmed)\"}, \"subheader\": \"NEWYORK\", \"subheader_font_size\": 0.15, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 72, \"datasource_name\": \"us_cases_superset\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "STATE WITH MAXIMUM CONFIRMED CASES",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases_superset",
+                            "datasource_type": "table",
+                            "id": 73,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"7__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(deaths)\", \"optionName\": \"metric_77xlxoh93hw_efl3m69tre\", \"sqlExpression\": \"MAX(deaths)\"}, \"subheader\": \"CALIFORNIA\", \"subheader_font_size\": 0.15, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 73, \"datasource_name\": \"us_cases_superset\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "STATE WITH MAXIMUM DEATHS",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "us_daily_cases.us_cases_superset",
+                            "datasource_type": "table",
+                            "id": 74,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"7__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"last_update\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(recovered)\", \"optionName\": \"metric_77xlxoh93hw_efl3m69tre\", \"sqlExpression\": \"MAX(recovered)\"}, \"subheader\": \"TEXAS\", \"subheader_font_size\": 0.15, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 74, \"datasource_name\": \"us_cases_superset\", \"schema\": \"us_daily_cases\", \"database_name\": \"US_COVID\"}",
+                            "slice_name": "STATE WITH MAXIMUM RECOVERIES",
+                            "viz_type": "big_number_total"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "province_state",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "8fffe9cd-8b9e-46c2-996a-7a7fee95b4cd",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "country_region",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 2,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "9be5b243-6fcd-4dc8-af5d-47f8f78777e2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "last_update",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 3,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "TIMESTAMP_NTZ",
+                            "uuid": "422bf7ca-14e0-4d3e-926f-57a96c31431e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "lat",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 4,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "FLOAT",
+                            "uuid": "50e180f8-9490-4393-bc97-5b3626e2f35c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "long_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 5,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "FLOAT",
+                            "uuid": "94373bff-dc84-45a5-adb8-93274b9a97af",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 6,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "35308e64-0d00-472c-8eac-29b7e1173001",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 7,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "30641336-62bf-4bc3-9126-3978b156204c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 8,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "ca8e3d1e-7813-47cc-b05f-130d41c2b3b4",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "active",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 9,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "43c5caf1-8da8-440f-b2f7-2a298e93df43",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "fips",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 10,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "13a73be5-5a0e-47a6-b73b-9eae4b5a91e5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "incident_rate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 11,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "FLOAT",
+                            "uuid": "d32b551a-9568-4f91-9ad7-4e1f9affeeb5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "total_test_results",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 12,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "d56f802c-6b5f-4437-94cf-c1388dc9f6a6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "PEOPLE_HOSPITALIZED\t",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 13,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "1294741c-4c87-4f8d-b271-01820e439213",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "CASE_FATALITY_RATIO\t",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 14,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "FLOAT",
+                            "uuid": "24f5e851-7269-4ad2-93fc-d1703b3b8b51",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "uid",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 15,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "c86c7e91-04bd-4484-92af-b7bd025d3cf3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "iso3",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 16,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "69ea5c9d-0929-4c2a-a842-396bb27b981d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "testing_rate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "FLOAT",
+                            "uuid": "f891758f-d86c-48f6-b7f7-c9909db24213",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "column_name": "hospitalization_rate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 18,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "FLOAT",
+                            "uuid": "36c91a6a-8d85-4212-a402-3801888e646f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:00:07"
+                            },
+                            "column_name": "people_hospitalized",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:00:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 37,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "9c14f83c-c6d1-4bb0-b017-a1f4f1d62a96",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:00:07"
+                            },
+                            "column_name": "case_fatality_ratio",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:00:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 38,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "FLOAT",
+                            "uuid": "4c3a57f2-0d33-4559-8ba7-7612a7abe729",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:00:07"
+                            },
+                            "column_name": "code",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:00:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 39,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "4ebf15bf-9adb-4afe-88e2-d81a12d6d748",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "last_update",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-14T23:57:08"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 1,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 1,
+                            "uuid": "933f5e62-21de-476c-a47f-942e09243447",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 1, \"database_name\": \"US_COVID\", \"import_time\": 1626287406}",
+                "schema": "us_daily_cases",
+                "sql": null,
+                "table_name": "us_cases",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "province_state",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 103,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "493aeebc-53a0-4b25-ace5-af165eb36619",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "country_region",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 104,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "c84e631c-f511-4e78-9bbd-6bdd195e16e8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "last_update",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 105,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "TIMESTAMP_NTZ",
+                            "uuid": "7900fbf6-26bd-4181-90ff-c8f76a7663ad",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "lat",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 106,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "FLOAT",
+                            "uuid": "348e38fd-4858-4844-8bd7-89e46bea0d0c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "long_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 107,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "FLOAT",
+                            "uuid": "af8d2707-1129-4cf8-a272-6007946d5093",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 108,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "04cfb890-0657-446b-b522-b204682d0ff9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 109,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "1d073788-8ed8-4205-93e6-e85ae045e831",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 110,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "bb62531a-1f49-40da-be38-c7a32d730340",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "active",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 111,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "908ebe27-1e29-43c0-9cc8-bbb8fc21a1db",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "fips",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 112,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "8d72c944-7a07-430d-bdf8-c4b8f2d4c519",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "incident_rate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 113,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "FLOAT",
+                            "uuid": "36d06a37-5bd9-40a8-a703-e3800b17ae14",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "total_test_results",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 114,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "3808b6a9-9be3-4fa9-b886-e0396f704b38",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "PEOPLE_HOSPITALIZED\t",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 115,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "2cbface5-22a4-4a11-be7d-827e68ec08af",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "CASE_FATALITY_RATIO\t",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 116,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "FLOAT",
+                            "uuid": "ac9fe7e9-fa95-4b25-90fb-81ace368b0e9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "uid",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 117,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "28ae59ec-4a18-47fa-b521-8f072829bfc0",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "iso3",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 118,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "43b3ab7f-5055-46ef-830f-26e87926b091",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "testing_rate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 119,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "FLOAT",
+                            "uuid": "aa89c4b0-0d3f-44ed-8edd-31f1971c993d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "hospitalization_rate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 120,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "FLOAT",
+                            "uuid": "06134c51-cf49-4bfd-847b-0b7364ac60b8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "code",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 121,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VARCHAR(16777216)",
+                            "uuid": "ab837df8-4326-4409-94d7-5e92f4b1c826",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "column_name": "population",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 122,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "05f2824d-508e-4393-868f-fe0c9c927bea",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "last_update",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T00:23:59"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 7,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 7,
+                            "uuid": "cccb2ff6-993c-408c-93d2-fb62abf9923d",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 7, \"database_name\": \"US_COVID\"}",
+                "schema": "us_daily_cases",
+                "sql": null,
+                "table_name": "us_cases_superset",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 258,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "DATE",
+                            "uuid": "3170749c-4ed1-4f43-ac9e-e4d351929295",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "total_cases",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 259,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "b235a908-a4f7-416c-936b-f170ebf57bb8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "new_cases",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 260,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "72798d2b-485d-4c00-bda8-436f0a8bb827",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "new_cases_smoothed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 261,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "FLOAT",
+                            "uuid": "f01becec-438a-4f0b-bb18-a9bbad99260a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "total_deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 262,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "4ec3640d-2703-4af4-9b7a-3fb9beb9fbda",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "new_deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 263,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "8917d66a-79b5-47a3-a8c0-63e111e2f894",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "new_deaths_smoothed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 264,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "FLOAT",
+                            "uuid": "8453188c-c269-4760-b204-f44ef44561dc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "new_tests",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 265,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "a507c442-e272-496b-b089-0b4856d20e2c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "total_tests",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 266,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "0b9c39e0-53f4-45f4-9702-e60dd07ce5e9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "positive_rate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 267,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "FLOAT",
+                            "uuid": "6ff32150-2bc5-4386-bf9f-860741c79ca0",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "tests_per_case",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 268,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "FLOAT",
+                            "uuid": "67fdfee7-6093-4833-88e4-c5af46bff5e7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "total_vaccinations",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 269,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "f1c753d6-cd30-4edc-bdb9-edfc92080468",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "people_vaccinated",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 270,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "e5d8d462-beca-45b4-a0c3-63966afddfcc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "people_fully_vaccinated",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 271,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "7fa8d736-5a55-4ec9-804a-5e33611c9bc0",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "column_name": "new_vaccinations",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 272,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "DECIMAL(38, 0)",
+                            "uuid": "655a0c47-c556-409c-9de6-809dfaa4c5cb",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "date",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-07-15T01:23:00"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 22,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 22,
+                            "uuid": "5eaa0171-992d-48b2-8641-08205e1fd752",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 22, \"database_name\": \"US_COVID\", \"import_time\": 1626328112}",
+                "schema": "merged_schema",
+                "sql": null,
+                "table_name": "us_merge",
+                "template_params": null
+            }
+        }
+    ]
+}
